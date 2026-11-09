@@ -15,7 +15,7 @@ but2.textContent = 'temizle';
 arama.classList.add('arama-bar');
 but.classList.add('ekle-buton');
 but2.classList.add('ekle-buton');
-arama.setAttribute('placeholder', 'Görev Giriniz');
+arama.setAttribute('placeholder', 'Gorev Giriniz');
 
 
 let sayac1 = 0;
@@ -28,7 +28,7 @@ but.addEventListener('click', function(){
     let deger = arama.value;
 
     if(deger == ""){
-       window.alert('boþ býrakýlmaz');
+       window.alert('boÃ¾ bÃ½rakÃ½lmaz');
     }
 
     else{
@@ -60,7 +60,9 @@ but.addEventListener('click', function(){
        rutin.addEventListener('dblclick', function(){
          rutin.remove();
          sayac2 -= 1;
-        k.textContent = "Tamamlanan = " + sayac2;
+         sayac1 -= 1;
+         t.textContent = "Toplam = " + sayac1;
+         k.textContent = "Tamamlanan = " + sayac2;
        })
     }
 })
