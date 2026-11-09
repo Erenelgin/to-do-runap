@@ -80,3 +80,8 @@ p{
   display:flex;
   justify-content:flex-end;
 }
+@media(min-width:1024px){
+  hero-cap{
+     justify-content:center;
+  }
+}
